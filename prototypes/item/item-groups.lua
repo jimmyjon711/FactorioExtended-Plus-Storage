@@ -3,7 +3,7 @@ data:extend({
     type = "item-group",
     name = "FactorioExtended",
     icon = "__base__/graphics/item-group/signals.png",
-    icon_size = 32,
+    icon_size = 64,
     inventory_order = "f",
     order = "f"
   },
