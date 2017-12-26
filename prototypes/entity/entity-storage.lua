@@ -1,8 +1,11 @@
+require ("circuit-connector-generated-definitions")
+
 data:extend({
   {
     type = "container",
     name = "titanium-chest",
     icon = "__FactorioExtended-Storage__/graphics/icons/titanium-chest.png",
+    icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "titanium-chest"},
     max_health = 400,
@@ -42,7 +45,8 @@ data:extend({
         green = {0.40625, 0.375},
       }
     },
-    circuit_connector_sprites = get_circuit_connector_sprites({0.1875, 0.15625}, nil, 18),
+    circuit_wire_connection_points = circuit_connector_definitions["chest"].points,
+    circuit_connector_sprites = circuit_connector_definitions["chest"].sprites,
     circuit_wire_max_distance = 7.5
   },
   
@@ -50,6 +54,7 @@ data:extend({
     type = "logistic-container",
     name = "titanium-logistic-chest-passive-provider",
     icon = "__FactorioExtended-Storage__/graphics/icons/titanium-logistic-chest-passive-provider.png",
+    icon_size = 32,
     flags = {"placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "titanium-logistic-chest-passive-provider"},
     max_health = 300,
@@ -84,12 +89,14 @@ data:extend({
       }
     },
     circuit_wire_max_distance = 7.5,
-    circuit_connector_sprites = get_circuit_connector_sprites({0.1875, 0.15625}, nil, 18),
+    circuit_wire_connection_points = circuit_connector_definitions["chest"].points,
+    circuit_connector_sprites = circuit_connector_definitions["chest"].sprites,
   },
   {
     type = "logistic-container",
     name = "titanium-logistic-chest-active-provider",
     icon = "__FactorioExtended-Storage__/graphics/icons/titanium-logistic-chest-active-provider.png",
+    icon_size = 32,
     flags = {"placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "titanium-logistic-chest-active-provider"},
     max_health = 300,
@@ -124,12 +131,14 @@ data:extend({
       }
     },
     circuit_wire_max_distance = 7.5,
-    circuit_connector_sprites = get_circuit_connector_sprites({0.1875, 0.15625}, nil, 18),
+    circuit_wire_connection_points = circuit_connector_definitions["chest"].points,
+    circuit_connector_sprites = circuit_connector_definitions["chest"].sprites,
   },
   {
     type = "logistic-container",
     name = "titanium-logistic-chest-storage",
     icon = "__FactorioExtended-Storage__/graphics/icons/titanium-logistic-chest-storage.png",
+    icon_size = 32,
     flags = {"placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "titanium-logistic-chest-storage"},
     max_health = 300,
@@ -164,12 +173,14 @@ data:extend({
       }
     },
     circuit_wire_max_distance = 7.5,
-    circuit_connector_sprites = get_circuit_connector_sprites({0.1875, 0.15625}, nil, 18),
+    circuit_wire_connection_points = circuit_connector_definitions["chest"].points,
+    circuit_connector_sprites = circuit_connector_definitions["chest"].sprites,
   },
   {
     type = "logistic-container",
     name = "titanium-logistic-chest-requester",
     icon = "__FactorioExtended-Storage__/graphics/icons/titanium-logistic-chest-requester.png",
+    icon_size = 32,
     flags = {"placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "titanium-logistic-chest-requester"},
     max_health = 300,
@@ -179,6 +190,7 @@ data:extend({
     fast_replaceable_group = "container",
     inventory_size = 96,
     logistic_mode = "requester",
+    logistic_slots_count = 12,
     open_sound = { filename = "__base__/sound/metallic-chest-open.ogg", volume=0.65 },
     close_sound = { filename = "__base__/sound/metallic-chest-close.ogg", volume = 0.7 },
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
@@ -204,6 +216,7 @@ data:extend({
       }
     },
     circuit_wire_max_distance = 7.5,
-    circuit_connector_sprites = get_circuit_connector_sprites({0.1875, 0.15625}, nil, 18),
+    circuit_wire_connection_points = circuit_connector_definitions["chest"].points,
+    circuit_connector_sprites = circuit_connector_definitions["chest"].sprites,
   }
 })

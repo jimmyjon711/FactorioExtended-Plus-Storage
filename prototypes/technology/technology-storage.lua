@@ -3,6 +3,7 @@ data:extend({
     type = "technology",
     name = "logistics-system-2",
     icon = "__base__/graphics/technology/construction-robotics.png",
+    icon_size = 128,
     prerequisites = {"robotics", "flying", "construction-robotics", "titanium-processing"},
     effects =
     {
