@@ -35,6 +35,17 @@ data:extend({
   },
   {
     type = "item",
+    name = "titanium-logistic-chest-buffer",
+    icon_size = 32,
+    icon = "__FactorioExtended-Storage__/graphics/icons/titanium-logistic-chest-buffer.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "fb-storage",
+    order = "b[storage]-c[logistic-chest-buffer]",
+    place_result = "titanium-logistic-chest-buffer",
+    stack_size = 50
+  },
+  {
+    type = "item",
     name = "titanium-logistic-chest-storage",
     icon = "__FactorioExtended-Storage__/graphics/icons/titanium-logistic-chest-storage.png",
     icon_size = 32,

@@ -36,6 +36,19 @@ data:extend({
   },
   {
     type = "recipe",
+    name = "titanium-logistic-chest-buffer",
+    enabled = false,
+    ingredients =
+    {
+      {"titanium-chest", 1},
+      {"electronic-circuit", 3},
+      {"advanced-circuit", 1}
+    },
+    result = "titanium-logistic-chest-buffer",
+    requester_paste_multiplier = 4
+  },
+  {
+    type = "recipe",
     name = "titanium-logistic-chest-storage",
     enabled = false,
     ingredients =

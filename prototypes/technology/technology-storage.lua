@@ -1,4 +1,5 @@
-data:extend({
+data:extend(
+{
   {
     type = "technology",
     name = "logistics-system-2",
@@ -11,19 +12,23 @@ data:extend({
         type = "unlock-recipe",
         recipe = "titanium-chest"
       },
-	  {
+	    {
         type = "unlock-recipe",
         recipe = "titanium-logistic-chest-passive-provider"
       },
-	  {
+	    {
         type = "unlock-recipe",
         recipe = "titanium-logistic-chest-active-provider"
       },
 	  {
         type = "unlock-recipe",
+        recipe = "titanium-logistic-chest-buffer"
+      },
+	    {
+        type = "unlock-recipe",
         recipe = "titanium-logistic-chest-storage"
       },
-	  {
+	    {
         type = "unlock-recipe",
         recipe = "titanium-logistic-chest-requester"
       }
