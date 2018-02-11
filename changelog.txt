@@ -1,0 +1,4 @@
+Version: 0.3.3
+Date: 02. 10. 2018
+  Changes :
+    - Changed collision box for all chests
