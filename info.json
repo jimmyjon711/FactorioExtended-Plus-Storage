@@ -1,12 +1,11 @@
 {
-  "name": "FactorioExtended-Storage",
-  "version": "0.3.3",
+  "name": "FactorioExtended-Plus-Storage",
+  "version": "0.1.0",
 	"factorio_version": "0.16",
-	"date": "2018-02-02",
-  "title": "FactorioExtended-Storage",
-  "author": "Nath Gamer",
-  "contributers": "jimmyjon711",
-	"homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=93&t=19836",
-  "description": "Storage shortages no more with Factorio Extended by your side!",
-	"dependencies": ["base >= 0.16.20", "FactorioExtended-Core >= 0.3.2", "FactorioExtended-Transport >= 0.3.5"]
+	"date": "2018-02-25",
+  "title": "FactorioExtended Plus-Storage",
+  "author": "jimmyjon711 (Original Author: Nath Gamer)",
+	"homepage": "",
+  "description": "",
+	"dependencies": ["base >= 0.16.20", "FactorioExtended-Plus-Core >= 0.1.0", "FactorioExtended-Plus-Transport >= 0.1.0"]
 }

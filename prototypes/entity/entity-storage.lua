@@ -2,7 +2,7 @@ data:extend({
   {
     type = "container",
     name = "titanium-chest",
-    icon = "__FactorioExtended-Storage__/graphics/icons/titanium-chest.png",
+    icon = "__FactorioExtended-Plus-Storage__/graphics/icons/titanium-chest.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "titanium-chest"},
@@ -24,7 +24,7 @@ data:extend({
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     picture =
     {
-      filename = "__FactorioExtended-Storage__/graphics/entity/titanium-chest/titanium-chest.png",
+      filename = "__FactorioExtended-Plus-Storage__/graphics/entity/titanium-chest/titanium-chest.png",
       priority = "extra-high",
       width = 48,
       height = 34,
@@ -39,7 +39,7 @@ data:extend({
   {
     type = "logistic-container",
     name = "titanium-logistic-chest-passive-provider",
-    icon = "__FactorioExtended-Storage__/graphics/icons/titanium-logistic-chest-passive-provider.png",
+    icon = "__FactorioExtended-Plus-Storage__/graphics/icons/titanium-logistic-chest-passive-provider.png",
     icon_size = 32,
     flags = {"placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "titanium-logistic-chest-passive-provider"},
@@ -66,7 +66,7 @@ data:extend({
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     picture =
     {
-      filename = "__FactorioExtended-Storage__/graphics/entity/titanium-logistic-chest/titanium-logistic-chest-passive-provider.png",
+      filename = "__FactorioExtended-Plus-Storage__/graphics/entity/titanium-logistic-chest/titanium-logistic-chest-passive-provider.png",
       priority = "extra-high",
       width = 38,
       height = 32,
@@ -80,7 +80,7 @@ data:extend({
   {
     type = "logistic-container",
     name = "titanium-logistic-chest-active-provider",
-    icon = "__FactorioExtended-Storage__/graphics/icons/titanium-logistic-chest-active-provider.png",
+    icon = "__FactorioExtended-Plus-Storage__/graphics/icons/titanium-logistic-chest-active-provider.png",
     icon_size = 32,
     flags = {"placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "titanium-logistic-chest-active-provider"},
@@ -107,7 +107,7 @@ data:extend({
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     picture =
     {
-      filename = "__FactorioExtended-Storage__/graphics/entity/titanium-logistic-chest/titanium-logistic-chest-active-provider.png",
+      filename = "__FactorioExtended-Plus-Storage__/graphics/entity/titanium-logistic-chest/titanium-logistic-chest-active-provider.png",
       priority = "extra-high",
       width = 38,
       height = 32,
@@ -121,7 +121,7 @@ data:extend({
   {
     type = "logistic-container",
     name = "titanium-logistic-chest-buffer",
-    icon = "__FactorioExtended-Storage__/graphics/icons/titanium-logistic-chest-buffer.png",
+    icon = "__FactorioExtended-Plus-Storage__/graphics/icons/titanium-logistic-chest-buffer.png",
     icon_size = 32,
     flags = {"placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "titanium-logistic-chest-buffer"},
@@ -149,7 +149,7 @@ data:extend({
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     picture =
     {
-      filename = "__FactorioExtended-Storage__/graphics/entity/titanium-logistic-chest/titanium-logistic-chest-buffer.png",
+      filename = "__FactorioExtended-Plus-Storage__/graphics/entity/titanium-logistic-chest/titanium-logistic-chest-buffer.png",
       priority = "extra-high",
       width = 38,
       height = 32,
@@ -162,7 +162,7 @@ data:extend({
   {
     type = "logistic-container",
     name = "titanium-logistic-chest-storage",
-    icon = "__FactorioExtended-Storage__/graphics/icons/titanium-logistic-chest-storage.png",
+    icon = "__FactorioExtended-Plus-Storage__/graphics/icons/titanium-logistic-chest-storage.png",
     icon_size = 32,
     flags = {"placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "titanium-logistic-chest-storage"},
@@ -189,7 +189,7 @@ data:extend({
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     picture =
     {
-      filename = "__FactorioExtended-Storage__/graphics/entity/titanium-logistic-chest/titanium-logistic-chest-storage.png",
+      filename = "__FactorioExtended-Plus-Storage__/graphics/entity/titanium-logistic-chest/titanium-logistic-chest-storage.png",
       priority = "extra-high",
       width = 38,
       height = 32,
@@ -203,7 +203,7 @@ data:extend({
   {
     type = "logistic-container",
     name = "titanium-logistic-chest-requester",
-    icon = "__FactorioExtended-Storage__/graphics/icons/titanium-logistic-chest-requester.png",
+    icon = "__FactorioExtended-Plus-Storage__/graphics/icons/titanium-logistic-chest-requester.png",
     icon_size = 32,
     flags = {"placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "titanium-logistic-chest-requester"},
@@ -231,7 +231,7 @@ data:extend({
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     picture =
     {
-      filename = "__FactorioExtended-Storage__/graphics/entity/titanium-logistic-chest/titanium-logistic-chest-requester.png",
+      filename = "__FactorioExtended-Plus-Storage__/graphics/entity/titanium-logistic-chest/titanium-logistic-chest-requester.png",
       priority = "extra-high",
       width = 38,
       height = 32,

@@ -2,7 +2,7 @@ data:extend({
   {
     type = "item",
     name = "titanium-chest",
-    icon = "__FactorioExtended-Storage__/graphics/icons/titanium-chest.png",
+    icon = "__FactorioExtended-Plus-Storage__/graphics/icons/titanium-chest.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-storage",
@@ -14,7 +14,7 @@ data:extend({
   {
     type = "item",
     name = "titanium-logistic-chest-passive-provider",
-    icon = "__FactorioExtended-Storage__/graphics/icons/titanium-logistic-chest-passive-provider.png",
+    icon = "__FactorioExtended-Plus-Storage__/graphics/icons/titanium-logistic-chest-passive-provider.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-storage",
@@ -25,7 +25,7 @@ data:extend({
   {
     type = "item",
     name = "titanium-logistic-chest-active-provider",
-    icon = "__FactorioExtended-Storage__/graphics/icons/titanium-logistic-chest-active-provider.png",
+    icon = "__FactorioExtended-Plus-Storage__/graphics/icons/titanium-logistic-chest-active-provider.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-storage",
@@ -37,7 +37,7 @@ data:extend({
     type = "item",
     name = "titanium-logistic-chest-buffer",
     icon_size = 32,
-    icon = "__FactorioExtended-Storage__/graphics/icons/titanium-logistic-chest-buffer.png",
+    icon = "__FactorioExtended-Plus-Storage__/graphics/icons/titanium-logistic-chest-buffer.png",
     flags = {"goes-to-quickbar"},
     subgroup = "fb-storage",
     order = "b[storage]-c[logistic-chest-buffer]",
@@ -47,7 +47,7 @@ data:extend({
   {
     type = "item",
     name = "titanium-logistic-chest-storage",
-    icon = "__FactorioExtended-Storage__/graphics/icons/titanium-logistic-chest-storage.png",
+    icon = "__FactorioExtended-Plus-Storage__/graphics/icons/titanium-logistic-chest-storage.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-storage",
@@ -58,7 +58,7 @@ data:extend({
   {
     type = "item",
     name = "titanium-logistic-chest-requester",
-    icon = "__FactorioExtended-Storage__/graphics/icons/titanium-logistic-chest-requester.png",
+    icon = "__FactorioExtended-Plus-Storage__/graphics/icons/titanium-logistic-chest-requester.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-storage",
