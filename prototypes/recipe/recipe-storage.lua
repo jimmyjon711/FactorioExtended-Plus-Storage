@@ -7,7 +7,6 @@ data:extend({
     result = "titanium-chest",
     requester_paste_multiplier = 4
   },
-  
   {
     type = "recipe",
     name = "titanium-logistic-chest-passive-provider",

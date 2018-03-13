@@ -2,3 +2,8 @@ Version: 0.3.3
 Date: 02. 10. 2018
   Changes :
     - Changed collision box for all chests
+
+Version: 0.1.1
+Date: 03. 12. 2018
+  Cgabges :
+    - Added logistic filter to storage chests

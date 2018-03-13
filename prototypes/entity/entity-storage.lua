@@ -167,6 +167,7 @@ data:extend({
     flags = {"placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "titanium-logistic-chest-storage"},
     max_health = 500,
+    logistic_slots_count = 1,
     corpse = "small-remnants",
     collision_box = {{-0.15, -0.15}, {0.15, 0.15}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
