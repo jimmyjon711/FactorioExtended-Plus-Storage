@@ -7,3 +7,8 @@ Version: 0.1.1
 Date: 03. 12. 2018
   Cgabges :
     - Added logistic filter to storage chests
+
+Version: 0.1.2
+Date: 03. 19. 2018
+  Cgabges :
+    - Removed collision box loop on all containers, because this breaks all other mods that use containers
