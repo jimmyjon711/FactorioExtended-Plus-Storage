@@ -10,7 +10,6 @@ data:extend({
     place_result = "titanium-chest",
     stack_size = 50
   },
-  
   {
     type = "item",
     name = "titanium-logistic-chest-passive-provider",

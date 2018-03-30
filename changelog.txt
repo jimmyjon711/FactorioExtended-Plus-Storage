@@ -12,3 +12,10 @@ Version: 0.1.2
 Date: 03. 19. 2018
   Changes :
     - Removed collision box loop on all containers, because this breaks all other mods that use containers
+
+Version: 0.1.4
+Date: 03. 30. 2018
+  Changes :
+    - Re-balancing science
+    - Added new recipe for logistics chests
+    - Added an option to re-enable early logistics
