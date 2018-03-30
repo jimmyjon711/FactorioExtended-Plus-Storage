@@ -3,11 +3,10 @@ if settings.startup["early-logistics"].value then
   {
     {
       type = "technology",
-      name = "logistics-system-2",
+      name = "early-logistics",
       icon = "__base__/graphics/technology/logistic-system.png",
       icon_size = 128,
       prerequisites = {"construction-robotics", "titanium-processing"},
-      localised_name = {"technology-name.logistics-system-2"},
       effects =
       {
         {
