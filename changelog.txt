@@ -25,3 +25,8 @@ Version: 0.2.1
 Date: 03. 03. 2019
   Changes :
     - Updating graphics and properties
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 03. 10. 2019
+  Changes :
+    - Updating migration files so crashes do not occur
