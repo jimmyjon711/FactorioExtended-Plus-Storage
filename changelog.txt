@@ -1,13 +1,26 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.1.1
-Date: 03. 12. 2018
+Version: 0.3.0
+Date: 30. 12. 2019
   Changes :
-    - Added logistic filter to storage chests
+    - Added thumbnail
+    - Reordered changelog.txt
+  Fixed:
+    - Upgrade planner can now upgrade to titanium regular and logistic chests
 ---------------------------------------------------------------------------------------------------
-Version: 0.1.2
-Date: 03. 19. 2018
+Version: 0.2.2
+Date: 03. 10. 2019
   Changes :
-    - Removed collision box loop on all containers, because this breaks all other mods that use containers
+    - Updating migration files so crashes do not occur
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 03. 03. 2019
+  Changes :
+    - Updating graphics and properties
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 03. 01. 2019
+  Changes :
+    - Updating to work with 0.17
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.4
 Date: 03. 30. 2018
@@ -16,17 +29,13 @@ Date: 03. 30. 2018
     - Added new recipe for logistics chests
     - Added an option to re-enable early logistics
 ---------------------------------------------------------------------------------------------------
-Version: 0.2.0
-Date: 03. 01. 2019
+Version: 0.1.2
+Date: 03. 19. 2018
   Changes :
-    - Updating to work with 0.17
+    - Removed collision box loop on all containers, because this breaks all other mods that use containers
 ---------------------------------------------------------------------------------------------------
-Version: 0.2.1
-Date: 03. 03. 2019
+Version: 0.1.1
+Date: 03. 12. 2018
   Changes :
-    - Updating graphics and properties
+    - Added logistic filter to storage chests
 ---------------------------------------------------------------------------------------------------
-Version: 0.2.2
-Date: 03. 10. 2019
-  Changes :
-    - Updating migration files so crashes do not occur
