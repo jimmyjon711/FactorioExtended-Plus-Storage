@@ -16,7 +16,7 @@ chest.minable.result = chest.name
 chest.next_upgrade = nil
 chest.max_health = 500
 chest.inventory_size = 96
-chest.logistic_slots_count = 24
+chest.logistic_slots_count = 40 -- 30 is new default value -- changing it to 40 will add an extra row
 chest.animation.layers[1].filename = "__FactorioExtended-Plus-Storage__/graphics/entity/titanium-logistic-chest/titanium-logistic-chest-requester.png"
 chest.animation.layers[1].hr_version.filename = "__FactorioExtended-Plus-Storage__/graphics/entity/titanium-logistic-chest/hr-titanium-logistic-chest-requester.png"
 
