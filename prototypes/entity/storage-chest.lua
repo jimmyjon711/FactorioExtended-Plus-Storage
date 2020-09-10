@@ -9,6 +9,9 @@ end
 
 local chest = table.deepcopy(vanilla_entity)
 chest.name = "titanium-logistic-chest-storage"
+chest.icon = "__FactorioExtended-Plus-Storage__/graphics/icons/titanium-logistic-chest-storage.png"
+chest.icon_mipmaps = 4
+chest.icon_size = 64
 chest.minable.result = chest.name
 chest.next_upgrade = nil
 chest.max_health = 500

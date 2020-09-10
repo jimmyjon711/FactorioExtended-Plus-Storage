@@ -9,6 +9,9 @@ end
 
 local chest = table.deepcopy(vanilla_entity)
 chest.name = "titanium-chest"
+chest.icon = "__FactorioExtended-Plus-Storage__/graphics/icons/titanium-chest.png"
+chest.icon_mipmaps = 4
+chest.icon_size = 64
 chest.inventory_size = 96
 chest.minable.result = chest.name
 chest.next_upgrade = nil
