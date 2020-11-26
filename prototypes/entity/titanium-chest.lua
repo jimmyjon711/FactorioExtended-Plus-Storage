@@ -1,12 +1,5 @@
 local vanilla_entity = data.raw["container"]["steel-chest"]
 
-if not vanilla_entity.fast_replaceable_group then
-    vanilla_entity.fast_replaceable_group = "container"
-end
-if not vanilla_entity.next_upgrade then
-    vanilla_entity.next_upgrade = "titanium-chest"
-end
-
 local chest = table.deepcopy(vanilla_entity)
 chest.name = "titanium-chest"
 chest.icon = "__FactorioExtended-Plus-Storage__/graphics/icons/titanium-chest.png"
